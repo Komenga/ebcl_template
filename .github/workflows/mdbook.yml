@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        branch: [main_1.x, main_2.x]
+        branch: [main]
     env:
       MDBOOK_VERSION: 0.4.37
       MDBOOK_IMAGE_SIZE_VERSION: 0.1.0
